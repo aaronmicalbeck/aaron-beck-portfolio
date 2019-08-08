@@ -1,66 +1,89 @@
 body {
     background-color: antiquewhite;
+    height: 100%;
+
 }
-
-
 
 #profile-image {
-    width: 100%;
-    height: 100%;
+    height: 400px;
+    width: 400px;
+    border: 5px solid rgb(241, 176, 168);
 }
 
-.icons {
-    width: 100px;
-    height: 100px;
+#profile-info {
+    
+    border: 5px solid rgb(241, 176, 168);
+    padding: 75px 10px 0 20px;
 }
 
 #main-row {
-    margin-top: 150px;
-    
+    margin-top: 20%;
 }
 
 .icons {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
 }
 
-
-#profile-info {
-    text-align: center;
-    top: 45px;
-    
-}
-
-.sticky-bottom {
-    bottom: 0;
-    position: 
-
-
-
-}
-
-@media screen and (max width; 768px) {
-
-    .wrapper {
-        width: 100%;
-        padding: 20px;
-
-    }
-
+@media screen and (max-width: 768px) {
+   /* About Me */
+   
     #profile-image {
-        height: auto;
-        background-size: contain;
-        width: auto;
+        width: 100%;
+        height: 100%;
     }
 
-    .profile-col {
-        height: auto;
-        background-size: contain;
-        width: auto;
-        float: left;
+    #profile-info {
+        margin-top: 50px;
+        padding: 20px 10px 0 0;
+        font-size: 12pt;
     }
-}
+
+    .icons {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Contact */
+
+    form {
+        width: 100%;
+    }
+
     
 
+}
+
+@media screen and (max-width: 320px) {
+
+    /* about me */
+    #profile-image {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    #profile-info {
+        margin: 50px 0 0 0;
+        padding-left: 10px;
+    
+    }
+
+    .icons {
+        height: 35px;
+        width: 35px;
+    }
+
+    /* contact */
+
+    form {
+        width: 100%;
+    }
+
+
+
+
+
+}
 
