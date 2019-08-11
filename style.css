@@ -4,6 +4,10 @@ body {
 
 }
 
+a:hover { cursor: pointer; 
+
+}
+
 #profile-image {
     height: 400px;
     width: 400px;
@@ -13,7 +17,8 @@ body {
 #profile-info {
     
     border: 5px solid rgb(241, 176, 168);
-    padding: 75px 10px 0 20px;
+    padding: 100px 10px 0 20px;
+
 }
 
 #main-row {
@@ -26,8 +31,42 @@ body {
     margin-left: 10px;
 }
 
+#form {
+    margin-left: 100px;
+    margin-top: 150px;
+    
+}
+
+.mr-3 {
+    width: 100px;
+    height: 100px;
+}
+
+.list-unstyled {
+    margin-top: 100px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    height: 100%;
+    margin-top: 6px;
+
+
+    
+  }
+  
+
+
 @media screen and (max-width: 768px) {
-   /* About Me */
+  body {
+      height: 100%;
+  }
+  
+  
+  
+  
+  
+    /* About Me */
    
     #profile-image {
         width: 100%;
@@ -37,7 +76,8 @@ body {
     #profile-info {
         margin-top: 50px;
         padding: 20px 10px 0 0;
-        font-size: 12pt;
+        margin-bottom: 250px;
+        padding-left: 40px;
     }
 
     .icons {
@@ -45,17 +85,49 @@ body {
         height: 35px;
     }
 
-    /* Contact */
 
-    form {
+
+    /* Contact */
+    
+    .forms {
         width: 100%;
     }
 
+
+
+
+
+
+
+
+
+
+    /* Portfolio */
     
+    .list-unstyled {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 
 }
 
+
+
+
+
+
+
+
+
 @media screen and (max-width: 320px) {
+    body {
+        height: 100%;
+    }
+
+
+
+
+
 
     /* about me */
     #profile-image {
@@ -67,12 +139,13 @@ body {
     #profile-info {
         margin: 50px 0 0 0;
         padding-left: 10px;
+        margin-bottom: 150px;
     
     }
 
     .icons {
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
     }
 
     /* contact */
@@ -82,8 +155,13 @@ body {
     }
 
 
+/* portfolio */
 
-
-
+.list-unstyled {
+    margin-bottom: 100px;
+    
 }
+
+
+
 
