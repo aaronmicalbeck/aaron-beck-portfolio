@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <title>Contact</title>
@@ -36,51 +37,51 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div id="wrapper" class="container">
 
         <!-- Main Row -->
         <div class="row">
             <div class="col ">
-                <div class="container mt-3 mb-3 p-3">
+                <form>
+                    <h1>CONTACT ME</h1>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"></label>
+                        <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Message"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-primary">Submit</button>
 
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1"></label>
-                            <input type="Text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1"></label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Email address">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-primary">Submit</button>
 
-                </div>
             </div>
         </div>
+    </div>
 
 
-        <!-- footer -->
-        <div class="fixed-bottom">
-            <nav class="navbar navbar-dark bg-dark">
-                <span class="navbar-text">
-                    &copy; Aaron Beck 2019 <a href="https://facebook.com/aaron.beck.102"> <img
-                            src="assets/facebook-icon.png" class="icons" alt="Facebook"></a>
-                    <a href="https://github.com/aaronmicalbeck"> <img src="assets/github-icon.png" class="icons"
-                            alt="Github">
-                    </a>
-                    <a href="https://www.linkedin.com/in/aaron-beck-0b609714a/"> <img src="assets/linkedin-icon.png"
-                            class="icons" alt="LinkedIn"></a>
-                </span>
+    <!-- footer -->
+    <div class="fixed-bottom">
+        <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-text">
+                &copy; Aaron Beck 2019 <a href="https://facebook.com/aaron.beck.102"> <img
+                        src="assets/facebook-icon.png" class="icons" alt="Facebook"></a>
+                <a href="https://github.com/aaronmicalbeck"> <img src="assets/github-icon.png" class="icons"
+                        alt="Github">
+                </a>
+                <a href="https://www.linkedin.com/in/aaron-beck-0b609714a/"> <img src="assets/linkedin-icon.png"
+                        class="icons" alt="LinkedIn"></a>
+            </span>
 
-            </nav>
-        </div>
+        </nav>
+    </div>
     </div>
 
 
