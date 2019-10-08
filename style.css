@@ -177,7 +177,6 @@ textarea {
     text-size-adjust: 50%;
   }
 
-  
   #about-me {
     margin: 0 0 0 0;
   }
@@ -202,6 +201,16 @@ textarea {
 
   #portfolio {
     padding: 0 0 0 0;
+  }
+
+  .card-title,
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ::placeholder,
+  input,
+  form h1 {
+    font-family: "Nunito Sans", sans-serif;
   }
 
   .icons {
@@ -235,7 +244,6 @@ textarea {
     text-size-adjust: 50%;
   }
 
-
   #profile-image {
     width: 100%;
     height: 90%;
@@ -257,6 +265,16 @@ textarea {
 
   #portfolio {
     padding: 0 0 0 0;
+  }
+
+  .card-title,
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ::placeholder,
+  input,
+  form h1 {
+    font-family: "Nunito Sans", sans-serif;
   }
 
   .icons {
@@ -305,6 +323,16 @@ textarea {
     margin: 10% 0 0 0;
   }
 
+  .card-title,
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ::placeholder,
+  input,
+  form h1 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+
   .icons {
     height: 30px;
     width: 30px;
@@ -343,11 +371,20 @@ textarea {
     padding: 0 0 0 0;
   }
 
+  .card-title,
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ::placeholder,
+  input,
+  form h1 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+
   .icons {
     height: 30px;
     width: 30px;
   }
-
 
   form {
     width: 100%;
@@ -398,7 +435,15 @@ textarea {
   #portfolio {
     padding: 0 0 0 0;
   }
-
+  .card-title,
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ::placeholder,
+  input,
+  form h1 {
+    font-family: "Nunito Sans", sans-serif;
+  }
   .icons {
     height: 30px;
     width: 30px;
