@@ -216,6 +216,11 @@ input[type=text],input[type=email], textarea {
         width: 100%;
     }
 
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+
 
 
 
