@@ -1,5 +1,5 @@
 html {
-    height: 200%;
+    height: 150%;
     scroll-behavior: smooth;
 
 }
@@ -10,7 +10,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25%;
+    height: 50%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -51,7 +51,7 @@ body {
 
 
 #portfolio{
-    margin-top: 20%;
+    margin-top: 10%;
     background-image: url(assets/bg.jpg);
     background-size: cover;
     width: 100%;
@@ -178,6 +178,77 @@ input[type=text],input[type=email], textarea {
     text-align: center;
     padding: 30px 0;
   }
+
+  @media screen and (max-width: 1024px) {
+    body {
+        height: 100%;
+    }
+
+
+    .jumbotron {
+        background-image: url(assets/parallax.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75%;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        text-size-adjust: 50%;
+    
+    
+    
+    }
+
+
+
+
+
+
+    /* about me */
+
+    #about-me{
+        margin: 0 0 0 0;
+    }
+    #profile-image {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        
+    }
+
+    #profile-info {
+        margin: 50px 0 0 0;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    
+    }
+
+    .port-col-1, .port-col-2, .port-col-3{
+        padding: 0 0 0 0;
+        margin-bottom: 2%;
+    }
+
+    #portfolio{
+        padding: 0 0 0 0;
+    }
+
+    .icons {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* contact */
+
+    form {
+        width: 100%;
+    }
+
+
+
+
+}
   
 
 
@@ -191,7 +262,7 @@ input[type=text],input[type=email], textarea {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100%;
+        height: 150%;
         width: 100%;
         font-family: 'Roboto', sans-serif;
         font-style: italic;
@@ -349,6 +420,8 @@ input[type=text],input[type=email], textarea {
 
 
 }
+
+
 
 
 
