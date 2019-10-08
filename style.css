@@ -106,13 +106,6 @@ form h1 {
     height: 750px;
 }
 
-.footer {
-    position: fixed;
-}
-
-hr {
-    height: 100vh;
-}
 
 
 
@@ -121,14 +114,7 @@ hr {
 
 
 
-#header{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
-    color: #695d5d96;
-    text-shadow: 4px;
-    width: 100%;
-    margin: 0 0 0 0;
-}
+
 
 a:hover { cursor: pointer; 
 
@@ -141,7 +127,7 @@ h1 {
 #profile-image {
     height: 400px;
     width: 400px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 3px 3px 3px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -176,14 +162,7 @@ h1 {
     
 }
 
-.mr-3 {
-    width: 100px;
-    height: 100px;
-}
 
-.list-unstyled {
-    margin-top: 100px;
-}
 
 input[type=text],input[type=email], textarea {
     width: 100%;
@@ -299,12 +278,6 @@ input[type=text],input[type=email], textarea {
     }
 
 
-/* portfolio */
-
-.list-unstyled {
-    margin-bottom: 100px;
-    
-}
 
 
 
