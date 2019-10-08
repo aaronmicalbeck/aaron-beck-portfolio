@@ -10,7 +10,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1200px;
+    height: 25%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -46,6 +46,8 @@ body {
     width: 100%;
     margin-top: 20%;
 }
+
+
 
 
 #portfolio{
@@ -127,14 +129,12 @@ h1 {
 #profile-image {
     height: 400px;
     width: 400px;
-    box-shadow: 3px 3px 3px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 #profile-info {
-    
-    padding: 80px 10px 0 20px;
+    padding: 3% 0 0 0;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
 
@@ -178,76 +178,129 @@ input[type=text],input[type=email], textarea {
     text-align: center;
     padding: 30px 0;
   }
+  
 
 
-@media screen and (max-width: 768px) {
-  body {
-      height: 100vh;
-  }
-  
-  
-  
-  
-  
-    /* About Me */
-   
+  @media screen and (max-width: 768px) {
+    body {
+        height: 50%;
+    }
+    .jumbotron {
+        background-image: url(assets/parallax.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        text-size-adjust: 50%;
+    
+    
+    
+    }
+
+
+
+
+
+    /* about me */
     #profile-image {
         width: 100%;
         height: 100%;
+        justify-content: center;
+        
     }
 
     #profile-info {
-        margin-top: 50px;
-        padding: 20px 10px 0 0;
-        margin-bottom: 250px;
-        padding-left: 40px;
+        margin: 50px 0 0 0;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    
+    }
+
+    .port-col-1, .port-col-2, .port-col-3{
+        padding: 0 0 0 0;
+        margin-bottom: 2%;
+    }
+
+    #portfolio{
+        padding: 0 0 0 0;
     }
 
     .icons {
-        width: 35px;
-        height: 35px;
+        height: 30px;
+        width: 30px;
     }
 
+    /* contact */
 
-
-    /* Contact */
-    
-    .forms {
+    form {
         width: 100%;
     }
 
-    p {
-        font-family: 'Nunito Sans', sans-serif;
-
-    }
 
 
-
-
-
-
-
-
-
-
-    /* Portfolio */
-    
-    .list-unstyled {
-        margin-bottom: 100px;
-        margin-top: 50px;
-    }
 
 }
 
 
 
 
+@media screen and (max-width: 667px) {
+    body {
+        height: 100%;
+    }
 
 
 
 
+    
 
-@media screen and (max-width: 320px) {
+    /* about me */
+    #about-me{
+        margin: 10% 0 0 0;
+    }
+    #profile-image {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        
+    }
+
+    #profile-info {
+        margin: 50px 0 0 0;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    
+    }
+
+    .port-col-1, .port-col-2, .port-col-3{
+        padding: 0 0 0 0;
+        margin-bottom: 2%;
+    }
+
+    #portfolio{
+        padding: 0 0 0 0;
+        margin: 10% 0 0 0;
+    }
+
+    .icons {
+        height: 30px;
+        width: 30px;
+    }
+
+    #contact{
+        margin: 10% 0 0 0;
+    }
+
+
+
+
+}
+    
+@media screen and (max-width: 375px) {
     body {
         height: 100%;
     }
@@ -261,14 +314,95 @@ input[type=text],input[type=email], textarea {
     #profile-image {
         width: 100%;
         height: 100%;
+        justify-content: center;
         
     }
 
     #profile-info {
         margin: 50px 0 0 0;
         padding-left: 10px;
-        margin-bottom: 150px;
+        margin-bottom: 10%;
     
+    }
+
+    .port-col-1, .port-col-2, .port-col-3{
+        padding: 0 0 0 0;
+        margin-bottom: 2%;
+    }
+
+    #portfolio{
+        padding: 0 0 0 0;
+    }
+
+    .icons {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* contact */
+
+    form {
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    body {
+        height: 100%;
+    }
+
+
+    .jumbotron {
+        background-image: url(assets/parallax.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75%;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        text-size-adjust: 50%;
+    
+    
+    
+    }
+
+
+
+
+
+
+    /* about me */
+    #profile-image {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        
+    }
+
+    #profile-info {
+        margin: 50px 0 0 0;
+        padding-left: 10px;
+        margin-bottom: 10%;
+    
+    }
+
+    .port-col-1, .port-col-2, .port-col-3{
+        padding: 0 0 0 0;
+        margin-bottom: 2%;
+    }
+
+    #portfolio{
+        padding: 0 0 0 0;
     }
 
     .icons {
