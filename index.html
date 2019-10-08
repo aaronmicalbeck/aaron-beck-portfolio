@@ -13,29 +13,29 @@
 <title>About Me</title>
 
 <body>
-
-  <!-- Navbar
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Aaron Beck</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                
+                  <a class="nav-link" href="#about-me" id="about-me">About Me </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#portfolio" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
 
-      </ul>
-    </div>
-  </nav> -->
+          </ul>
+      </div>
+  </nav>
 
   <div class="jumbotron jumbotron-fluid">
       <div class="container">
@@ -50,13 +50,15 @@
     <!-- Main Row -->
 
 
-    <div class="row" id="main-row">
+    <div class="row" id="main-row" href="#about-me">
       <div class="col-lg-6 col-md-12 col-sm-12" id="profile-col">
         <img src="assets/profile-image.jpg" id="profile-image" alt="About Me">
       </div>
 
       <div class="col-lg-6" id="profile-info">
-        <p>Hi there, I'm Aaron Beck</p>
+
+        <p>Hi there, I'm Aaron Beck </p>
+        
         <p>
 
           I am a Full Stack Developer with a background in client relations and education dedicated to building innovative,
@@ -68,13 +70,55 @@
 
       </div>
     </div>
+    <div class="row" id="row-2">
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+Current CV 
+</button>
+<span class="navbar-text">
+    <a href="https://facebook.com/aaron.beck.102"> <img src="assets/facebook-icon.png"
+        class="icons" alt="Facebook"></a>
+    <a href="https://github.com/aaronmicalbeck"> <img src="assets/github-icon.png" class="icons" alt="Github">
+    </a>
+    <a href="https://www.linkedin.com/in/aaron-beck-0b609714a/"> <img src="assets/linkedin-icon.png" class="icons"
+        alt="LinkedIn"></a>
+  </span>
 
-      <div class="row" id="row-2">
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-xl" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <embed src="assets/Aaron_Beck_Resume_seven.PDF" frameborder="0" width="100%" height="400px">
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+
+        
+        
+
+      
+    </div>
+
+
+      <div class="row" id="row-3">
         <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="card mx-auto" style="width: 18rem;">
                 <img src="assets/crystal-collector.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Crystal Collector Game</h5>
+                  <h5 class="card-title text-center">Crystal Collector Game</h5>
                   <p class="card-text">JavaScript-based game where you collect crystals. <a href="https://github.com/aaronmicalbeck/unit-4-game.git">(See Code)</a></p>
                   <a href="https://aaronmicalbeck.github.io/unit-4-game/" class="btn btn-primary">Deploy!</a>
                 </div>
@@ -84,7 +128,7 @@
               <div class="card mx-auto" style="width: 18rem;">
                   <img src="assets/beach-mode.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Beach Mode '88</h5>
+                    <h5 class="card-title text-center">Beach Mode '88</h5>
                     <p class="card-text">JavaScript-based game similar to Hangman. <a href="https://github.com/aaronmicalbeck/Word-Guess-Game.git">(See Code)</a></p>
                     <a href="https://aaronmicalbeck.github.io/Word-Guess-Game/" class="btn btn-primary">Deploy!</a>
                   </div>
@@ -94,7 +138,7 @@
                 <div class="card mx-auto" style="width: 18rem;">
                     <img src="assets/rhythm-radar.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Rhythm Radar</h5>
+                      <h5 class="card-title text-center">Rhythm Radar</h5>
                       <p class="card-text">Group project utilizing mutliple APIs. <a href="https://github.com/aaronmicalbeck/project-one.git">(See Code)</a></p>
                       <a href="https://aaronmicalbeck.github.io/project-one/" class="btn btn-primary">Deploy!</a>
                     </div>
@@ -104,10 +148,8 @@
 
         </div>
 
-        <div class="row" id="row-3">
-          
-        </div>
 
+        
         <div class="row" id="row-4">
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <form>
@@ -156,30 +198,17 @@
 
       </div>
 
-    <!-- <div class="fixed-bottom">
-      <nav class="navbar navbar-light bg-light">        <span class="navbar-text">
-          &copy; Aaron Beck 2019 <a href="https://facebook.com/aaron.beck.102"> <img src="assets/facebook-icon.png"
-              class="icons" alt="Facebook"></a>
-          <a href="https://github.com/aaronmicalbeck"> <img src="assets/github-icon.png" class="icons" alt="Github">
-          </a>
-          <a href="https://www.linkedin.com/in/aaron-beck-0b609714a/"> <img src="assets/linkedin-icon.png" class="icons"
-              alt="LinkedIn"></a>
-        </span>
 
-      </nav>
-    </div>
-  </div> -->
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+      <script src="portfolio.js"></script>
+      <script src="https://github.com/pipwerks/PDFObject/blob/master/pdfobject.min.js"></script>
+
 
 
 
