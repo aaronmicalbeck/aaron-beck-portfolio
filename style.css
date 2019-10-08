@@ -440,6 +440,7 @@ textarea {
   }
   ::placeholder,
   input,
+  .form-control,
   form h1 {
     font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
