@@ -1,3 +1,5 @@
+// SCROLL ANIMATION TO ANCHOR //
+
 $('a[href*="#"]').on("click", function(e) {
   e.preventDefault();
 
@@ -9,4 +11,6 @@ $('a[href*="#"]').on("click", function(e) {
     "linear"
   );
 });
+
+// ////////////////////////////
 
