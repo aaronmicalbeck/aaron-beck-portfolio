@@ -269,12 +269,12 @@ textarea {
 
   .card-title,
   .card-text {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   ::placeholder,
   input,
   form h1 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
 
   .icons {
@@ -325,12 +325,12 @@ textarea {
 
   .card-title,
   .card-text {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   ::placeholder,
   input,
   form h1 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
 
   .icons {
@@ -385,12 +385,12 @@ textarea {
   }
   .card-title,
   .card-text {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   ::placeholder,
   input,
   form h1 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   .icons {
     height: 30px;
@@ -436,12 +436,12 @@ textarea {
 
   .card-title,
   .card-text {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   ::placeholder,
   input,
   form h1 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
 
   .icons {
@@ -500,12 +500,12 @@ textarea {
   }
   .card-title,
   .card-text {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   ::placeholder,
   input,
   form h1 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
   }
   .icons {
     height: 30px;
