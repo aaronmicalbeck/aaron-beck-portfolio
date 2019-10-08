@@ -1,7 +1,109 @@
-body {
-    background-color: antiquewhite;
-    height: 100%;
+html {
+    height: 200%;
+}
 
+.jumbotron {
+    background-image: url(assets/parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-size-adjust: 50%;
+
+
+
+}
+
+.display-4{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.lead{
+    margin-top: 2%;
+    margin-left: 15%;   
+    text-align: center;
+}
+
+body {
+    background-image: url(assets/bg.jpg);
+    height: 200%;
+    width: 100%;    
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#main-row{
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+
+#row-2{
+    margin-top: 20%;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+}
+
+.card-img-top{
+    object-fit: cover;
+    max-height: 100%;
+    flex-shrink: 0; 
+
+}
+
+.card-title, .card-text{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.card-body{
+    background: none;
+}
+
+.btn-primary{
+    background-color: grey;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+::placeholder, input, form h1{
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+#row-4{
+    /* background-image: url(assets/bg.jpg); */
+    background-size: cover;
+    width: 100%;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+#header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: #695d5d96;
+    text-shadow: 4px;
+    width: 100%;
+    margin: 0 0 0 0;
 }
 
 a:hover { cursor: pointer; 
@@ -15,19 +117,22 @@ h1 {
 #profile-image {
     height: 400px;
     width: 400px;
-    border: 5px solid rgb(241, 176, 168);
+    box-shadow: 10px 10px 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #profile-info {
     
-    border: 5px solid rgb(241, 176, 168);
-    padding: 100px 10px 0 20px;
+    padding: 80px 10px 0 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+
+    
 
 }
 
-#main-row {
-    margin-top: 20%;
-}
+
 
 .icons {
     height: 50px;
