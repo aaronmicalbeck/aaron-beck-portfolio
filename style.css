@@ -343,6 +343,69 @@ textarea {
   }
 }
 
+@media screen and (max-width: 414px) {
+  body {
+    height: 100%;
+  }
+
+  .jumbotron {
+    background-image: url(assets/parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    text-size-adjust: 50%;
+  }
+
+  #profile-image {
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+  }
+
+  #profile-info {
+    margin: 50px 0 0 0;
+    padding-left: 10px;
+    margin-bottom: 10%;
+  }
+
+  .port-col-1,
+  .port-col-2,
+  .port-col-3 {
+    padding: 0 0 0 0;
+    margin-bottom: 2%;
+  }
+
+  #portfolio {
+    padding: 0 0 0 0;
+  }
+  .card-title,
+  .card-text {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  ::placeholder,
+  input,
+  form h1 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #contact {
+    margin: 10% 0 10% 0;
+  }
+}
+
 @media screen and (max-width: 375px) {
   body {
     height: 100%;
