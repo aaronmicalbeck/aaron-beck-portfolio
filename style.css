@@ -40,15 +40,16 @@ body {
     
 }
 
-#main-row{
+#about-me{
     background-image: url(assets/bg.jpg);
     background-size: cover;
     width: 100%;
+    margin-top: 20%;
 }
 
 
-#row-3{
-    margin-top: 10%;
+#portfolio{
+    margin-top: 20%;
     background-image: url(assets/bg.jpg);
     background-size: cover;
     width: 100%;
@@ -70,7 +71,7 @@ body {
     background: none;
 }
 
-#row-2{
+#cv{
     justify-content: center;
     width: 100%;
     margin-top: 10%;
@@ -93,11 +94,11 @@ form h1 {
     text-align: center;
 }
 
-#row-4{
+#contact{
     width: 100%;
-    margin-top: 15%;
     padding: 1% 1% 1% 1%; 
     justify-content: center;  
+    margin-top: 25%;
 }
 
 .modal-content{
@@ -109,6 +110,9 @@ form h1 {
     position: fixed;
 }
 
+hr {
+    height: 100vh;
+}
 
 
 
