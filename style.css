@@ -101,7 +101,9 @@ form h1 {
 }
 
 #contact-info {
-  float: right;
+  align-content: center;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .modal-content {
