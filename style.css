@@ -58,18 +58,18 @@ body {
   height: 23vh!important;
   max-height: 100%!important;
   /* flex-shrink: 0; */
-  transition: transform 0.4s ease;
+  transition: transform 0.4s ease !important;
   -webkit-filter: blur(2px);
 
 }
 .card-img-top:hover{
   border-radius: 2%;
-    -webkit-filter: none;
+  -webkit-filter: none;
 
 
-    -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+    -webkit-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
 
   }
 
