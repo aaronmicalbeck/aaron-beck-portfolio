@@ -603,7 +603,7 @@ textarea {
   .jumbotron {
     background-image: url(assets/parallax.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: cover 0;
     background-repeat: no-repeat;
     background-size: cover;
     height: 75%;
