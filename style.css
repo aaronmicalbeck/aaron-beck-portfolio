@@ -58,15 +58,25 @@ body {
   height: 23vh!important;
   max-height: 100%!important;
   /* flex-shrink: 0; */
+  transition: transform 0.4s ease;
+  -webkit-filter: blur(2px);
+
 }
 .card-img-top:hover{
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
+  border-radius: 2%;
+    -webkit-filter: none;
+
+
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
   }
 
 .card-title,
 .card-text {
   font-family: "Nunito Sans", sans-serif;
+  
 }
 
 .card-body {
