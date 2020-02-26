@@ -89,9 +89,11 @@ body {
 }
 
 #cv {
+  display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 10%;
+  align-content: space-around;
 }
 
 .btn-primary {
@@ -340,6 +342,8 @@ textarea {
   #contact {
     margin: 10% 0 10% 0;
   }
+
+  .card-img-top{-webkit-filter: none;}
 }
 
 @media screen and (max-width: 768px) {
@@ -408,6 +412,7 @@ textarea {
   #contact {
     margin: 10% 0 10% 0;
   }
+  .card-img-top{-webkit-filter: none;}
 }
 
 @media screen and (max-width: 667px) {
@@ -464,6 +469,7 @@ textarea {
   #contact {
     margin: 10% 0 20% 0;
   }
+  .card-img-top{-webkit-filter: none;}
 }
 
 @media screen and (max-width: 414px) {
@@ -531,6 +537,7 @@ textarea {
   #contact {
     margin: 10% 0 10% 0;
   }
+  .card-img-top{-webkit-filter: none;}
 }
 
 @media screen and (max-width: 375px) {
@@ -592,6 +599,7 @@ textarea {
   #contact {
     margin: 10% 0 20% 0;
   }
+  .card-img-top{-webkit-filter: none;}
 }
 
 @media screen and (max-width: 320px) {
@@ -659,4 +667,5 @@ textarea {
   #contact {
     margin: 10% 0 10% 0;
   }
+  .card-img-top{-webkit-filter: none;}
 }

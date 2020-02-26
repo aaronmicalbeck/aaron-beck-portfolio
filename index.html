@@ -2,9 +2,7 @@
 <html>
 
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i|Roboto&display=swap" rel="stylesheet">
@@ -12,36 +10,12 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+
 </head>
 
 <title>Aaron Beck</title>
 
 <body>
-  <!-- NAVIGATION BAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-
-          <a class="nav-link" href="#about-me">About Me </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-
-      </ul>
-    </div>
-  </nav>
-  <!-- NAVIGATION BAR -->
 
 
   <!-- JUMBOTRON -->
@@ -64,9 +38,9 @@
     <!-- Main Row -->
 
 
-    <div class="row" id="about-me">
+    <section class="row" id="about-me">
       <div class="col-lg-6 col-md-12 col-sm-12" id="profile-col">
-        <img src="assets/profile-image.jpg" id="profile-image" alt="About Me">
+        <img src="assets/profile-image.jpg" id="profile-image" class="show-on-scroll" alt="About Me">
       </div>
 
       <div class="col-lg-5 col-md-12 col-sm-12" id="profile-info"><a name="about-me"></a>
@@ -75,21 +49,20 @@
 
         <p>
 
-          I am a Full Stack Developer with a background in client relations and education dedicated to building
-          innovative,
-          progressive, and enriching applications for end-users and producers. Bachelor’s Degree in English from Western
-          Michigan University, Full Stack Web Development Certification from the University of Arizona. Experienced in
-          HTML, CSS, Javascript, JQuery, APIs, SQL, MERN, and more. I have a strong desire to create in a collaborative,
-          and meaningful work environment, and to continuously learn and challenge myself. Deeply inspired by new
-          technologies and motivated by forward-looking, team-based climates.</p>
+          I am a Full Stack Developer based out of Tucson, AZ with a background in client relations and education dedicated to building
+          innovative and enriching applications for end-users. I hold a Bachelor’s Degree in English from Western
+          Michigan University and a Full Stack Web Development Certification from the University of Arizona. I am
+          Experienced in HTML, CSS, Javascript, APIs, and primarily develop applications using the MERN
+          stack. I have a strong desire to create in a collaborative, and meaningful work environment, and to continuously
+          learn and challenge myself. I invite you to take a look at my work!</p>
 
       </div>
-    </div>
+    </section>
 
     <!-- Second Row -->
 
 
-    <div class="row" id="cv">
+    <section class="row" id="cv">
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
         Current CV
@@ -124,15 +97,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
 
     <!-- Third Row -->
-    <div class="row" id="portfolio">
+    <section class="row" id="portfolio">
 
       <div class="col-lg-4 col-md-12 col-sm-12 port-col-1">
         <div class="card mx-auto" style="width: 18rem;">
-          <a href="https://github.com/aaronmicalbeck/liri-node-app""><img src="assets/liri.png" class="embed-responsive-4by3 card-img-top"
-              alt="..."></a>
+          <a href="https://github.com/aaronmicalbeck/liri-node-app""><img src=" assets/liri.png"
+            class="embed-responsive-4by3 card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title text-center">Liri Node App</h5>
             <p class="card-text">This is a CLI application that utilizes the Spotify npm, OMDB Api, Bands In Town API,
@@ -141,32 +115,33 @@
           </div>
         </div>
 
-        <div class="card mx-auto" style="width: 18rem;">  
+        <div class="card mx-auto" style="width: 18rem;">
           <a href="https://trivia-mac.herokuapp.com"><img src="assets/triviamac.jpg"
               class="embed-responsive-4by3 card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title text-center">Trivia-Mac</h5>
-            <p class="card-text">Full stack React.js app featuring Socket.io! Test your trivia skills in our Marathon Mode or Time Attack Mode.
-              Create your user profile, check the leaderboard, submit a question to our Trivia-Mac question database and compete in this rapid-fire trivia game!  This app is build using the full MERN stack
+            <p class="card-text">Full stack React.js app featuring Socket.io! Test your trivia skills in our Marathon
+              Mode or Time Attack Mode.
+              Create your user profile, check the leaderboard, submit a question to our Trivia-Mac question database and
+              compete in this rapid-fire trivia game! This app is build using the full MERN stack
               and features Socket.io for a true real time experience.
-              <a
-                href="https://github.com/aaronmicalbeck/Trivia-Mac">(See Code)</a></p>
+              <a href="https://github.com/aaronmicalbeck/Trivia-Mac">(See Code)</a></p>
           </div>
         </div>
       </div>
 
-      
+
 
       <div class="col-lg-4 col-md-12 col-sm-12 port-col-2">
 
         <div class="card mx-auto" style="width: 18rem;">
-          <a href="https://github.com/aaronmicalbeck/bamazon"><img src="assets/bamazon.png" class="embed-responsive-4by3 card-img-top"
-              alt="..."></a>
+          <a href="https://github.com/aaronmicalbeck/bamazon"><img src="assets/bamazon.png"
+              class="embed-responsive-4by3 card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title text-center">(B)amazon</h5>
             <p class="card-text">This is a CLI application built in Node.js that mimics an online store. "Customers" and
               "Managers" have the ability to manipulate a product database with specific commands prompted by the
-              Inquirer node package. The customer interface has the ability to view products, add products to a cart,
+              'Inquirer' node package. The customer interface has the ability to view products, add products to a cart,
               view the cart, and to checkout. In addition to the customer interface, it features a "Manager" interface
               with the ability to view products, view low inventory, add to inventory, and to add new products.<a
                 href="https://github.com/aaronmicalbeck/bamazon">(See Code)</a></p>
@@ -187,13 +162,13 @@
       <div class="col-lg-4 col-md-12 col-sm-12 port-col-3">
 
         <div class="card mx-auto" style="width: 18rem;">
-          <a href="https://blooming-refuge-09509.herokuapp.com/login"><img src="assets/hamjars.png" class="embed-responsive-4by3 card-img-top"
-              alt="..."></a>
+          <a href="https://blooming-refuge-09509.herokuapp.com/login"><img src="assets/hamjars.png"
+              class="embed-responsive-4by3 card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title text-center">HamJARS</h5>
             <p class="card-text">
-              HamJARS is a full-stack web application and work order software that organizes, tracks, and schedules your
-              work order activities. Faster & Better.<a href="https://github.com/aaronmicalbeck/Project-Two">(See
+              HamJARS is a full-stack web application built using HandleBars, Express, MySQL, and Node.js that organizes, tracks, and schedules your
+              work order activities more efficiently. <a href="https://github.com/aaronmicalbeck/Project-Two">(See
                 Code)</a></p>
           </div>
         </div>
@@ -203,29 +178,20 @@
               class="embed-responsive-4by3 card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title text-center">Rhythm Radar</h5>
-            <p class="card-text">The Rhythm Radar app utilizes a simple Bootstrap layout, along with the Foursquare API and the GoogleMaps API. 
+            <p class="card-text">The Rhythm Radar app utilizes a simple Bootstrap layout, along with the Foursquare API
+              and the GoogleMaps API.
               By selecting your location, a map is generated and pins are dropped on the nearest music venues.<a
                 href="https://github.com/aaronmicalbeck/project-one.git">(See Code)</a></p>
           </div>
         </div>
-      </div>
-   
+    </section>
 
-    <!-- Fourth Row -->
-      <div class="col-lg-4 col-md-12 col-sm-12 port-col-1">
-        
-      </div>
-      <div class="col-lg-4 col-md-12 col-sm-12 port-col-2">
-        
-      </div>
-      <div class="col-lg-4 col-md-12 col-sm-12 port-col-3">
-        
-      </div>
-    </div>
+
+
 
 
     <!-- Fifth Row -->
-    <div class="row" id="contact">
+    <section class="row" id="contact">
       <div class="col-lg-12 col-md-12 col-sm-12 ">
         <h2 id="contact-info">Email: aaronmicalbeck@gmail.com | Tucson, AZ</h2>
       </div>
@@ -250,8 +216,8 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
+  </section>
 
 
 
