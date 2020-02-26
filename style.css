@@ -20,7 +20,8 @@ html {
 .btn-primary{
   background-color: coral !important;
   margin-right: 15px;
-  transition: transform 0.3s ease
+  transition: transform 0.3s ease;
+  border: none;
 }
 
 .icons{
@@ -28,9 +29,9 @@ html {
 }
 
 .icons:hover{
-  -webkit-transform: scale(1.4) !important;
-  -ms-transform: scale(1.4) !important;
-  transform: scale(1.4) !important;
+  -webkit-transform: scale(1.5) !important;
+  -ms-transform: scale(1.5) !important;
+  transform: scale(1.5) !important;
 }
 
 .btn-primary:hover{
@@ -119,11 +120,7 @@ body {
   align-content: space-around;
 }
 
-.btn-primary {
-  background-color: grey;
-  border: none;
-  font-family: "Nunito Sans", sans-serif;
-}
+
 
 ::placeholder,
 input,
@@ -165,7 +162,6 @@ h1 {
 #profile-image {
   max-height: 500px;
   max-width: 400px;
-  margin-top: 5%;
   margin-bottom: 5%;
   height: auto;
   width: auto;
@@ -187,7 +183,7 @@ h1 {
 
 
 #profile-info {
-  padding: 3% 0 0 0;
+  padding: 0% 0 0 0;
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -227,60 +223,18 @@ textarea {
   text-align: center;
   padding: 30px 0;
 }
- /* Within style tags in your html file */
-* { box-sizing: border-box; }
+ 
 
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(.7,.7)}
+  to {opacity: 1;}
 }
-
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
-}
-@media (max-width: 575px) {
-  .grid-sizer,
-  .grid-item {
-    width: 100%;
-  }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  .grid-sizer,
-  .grid-item {
-    width: 50%;
-  }
+#about-me {
+animation: fade-in 8s;
 }
 
-/* To change the amount of columns on larger devices, uncomment the code below */
-
-/* @media (min-width: 768px) and (max-width: 991px) {
-  .grid-sizer,
-  .grid-item {
-    width: 33.333%;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .grid-sizer,
-  .grid-item {
-    width: 25%;
-  }
-}
-@media (min-width: 1200px) {
-  .grid-sizer,
-  .grid-item {
-    width: 20%;
-  }
-} */
-
-.grid-item {
-  float: left;
-}
-
-.grid-item img {
-  display: block;
-  max-width: 100%;
+.hidden{
+  opacity: 0;
 }
 
 
