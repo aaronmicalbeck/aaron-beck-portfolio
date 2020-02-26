@@ -17,6 +17,29 @@ html {
   text-size-adjust: 50%;
 }
 
+.btn-primary{
+  background-color: coral !important;
+  margin-right: 15px;
+  transition: transform 0.3s ease
+}
+
+.icons{
+  transition: transform 0.3s ease;
+}
+
+.icons:hover{
+  -webkit-transform: scale(1.4) !important;
+  -ms-transform: scale(1.4) !important;
+  transform: scale(1.4) !important;
+}
+
+.btn-primary:hover{
+  -webkit-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+  
+}
+
 .display-4 {
   margin-top: 10%;
   text-align: center;
@@ -58,7 +81,7 @@ body {
   height: 23vh!important;
   max-height: 100%!important;
   /* flex-shrink: 0; */
-  transition: transform 0.4s ease !important;
+  transition: transform 0.3s ease !important;
   -webkit-filter: blur(2px);
 
 }
@@ -204,7 +227,7 @@ textarea {
   text-align: center;
   padding: 30px 0;
 }
-// Within style tags in your html file
+ /* Within style tags in your html file */
 * { box-sizing: border-box; }
 
 .grid:after {
