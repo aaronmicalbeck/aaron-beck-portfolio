@@ -24,7 +24,7 @@ html {
   border: none;
 }
 
-.btn-secondary{
+#card-btn{
   background-color: coral !important;
   margin-left: 10px;
   transition: transform 0.3s ease;
@@ -32,7 +32,7 @@ html {
   font-size: .7rem;
 }
 
-.btn-secondary:hover{
+#card-btn:hover{
   -webkit-transform: scale(1.2) !important;
   -ms-transform: scale(1.2) !important;
   transform: scale(1.2) !important;
